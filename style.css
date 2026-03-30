@@ -1,0 +1,72 @@
+## What is a CSS (Cascading Style Sheets) ?
+  - CSS is used to style and design web pages (make them look good).
+
+
+##CSS Structure
+body {
+  background-color: lightblue; /* Sets background color */
+  font-family: Arial; /* Changes font */
+}
+/* Selects all <h1> elements */
+h1 {
+  color: darkblue; /* Text color */
+  text-align: center; /* Centers the text */
+}
+/* Selects all <p> elements */
+p {
+  color: black; /* Paragraph text color */
+  font-size: 16px; /* Text size */
+}
+# END
+
+
+## Selectors 
+/* Element */
+p { }
+
+/* class */
+.box { }
+
+/* ID */
+#header { }
+
+/* Multiple */
+h1, p { }
+
+/* Nested */
+div p { }
+
+
+## Colors and Units   
+color: red;  /* Red */
+color: #ff0000; /* Red */
+color: rgb(255,0,0); /* Red */
+px --> /* fixed */
+% --> /* relative */
+em, rem --> /* scalable */
+/* There are many of them, Positioning, Typography, Transitions and more... */
+
+
+## The Box Model
+div {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+
+## Flexbox
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+## Responsive Design /* Makes website work on phone */
+@media (max-width: 600px) {
+  body {
+    background: lightgray;
+  }
+}
+
